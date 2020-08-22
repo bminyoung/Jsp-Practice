@@ -11,11 +11,25 @@
   </welcome-file-list>
   
   <servlet>
-  	<servlet-name>servletEx</servlet-name>
-  	<servlet-class>com.practice.HelloServlet</servlet-class>
+  	<servlet-name>implicitEx</servlet-name>
+  	<jsp-file>/implicitEx.jsp</jsp-file>
+  	<init-param>
+  		<param-name>adminId</param-name>
+  		<param-value>admin</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>adminPw</param-name>
+  		<param-value>1234</param-value>
+  	</init-param>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>servletEx</servlet-name>
-  	<url-pattern>/SE</url-pattern>
+  	<servlet-name>implicitEx</servlet-name>
+  	<url-pattern>/implicitEx.jsp</url-pattern>
   </servlet-mapping>
+  
+  <context-param>
+  	<param-name>testServerIP</param-name>
+  	<param-value>127.0.0.1</param-value>
+  </context-param>
+  
 </web-app>
