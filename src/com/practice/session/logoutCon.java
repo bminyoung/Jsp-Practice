@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
 
 
 @WebServlet("/SessionEx/logoutCon")
-public class logoutCon extends HttpServlet {
+public class LogoutCon extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
