@@ -35,7 +35,7 @@
   <!-- filter -->
   <filter>
   	<filter-name>tempFilter</filter-name>
-  	<filter-class>com.servlet.filter.TempFilter</filter-class>
+  	<filter-class>com.practice.TempFilter</filter-class>
   </filter>
   <filter-mapping>
   	<filter-name>tempFilter</filter-name>
